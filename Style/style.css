@@ -172,7 +172,7 @@ main .vision .vision-content .vision-description {
 
 main .vision .vision-content .vision-cards {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
@@ -217,4 +217,44 @@ main .vision .vision-content .vision-cards .vision-card button {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
+}
+
+main .quote .quote-content {
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+main .quote .quote-content img {
+    background-color: transparent;
+    position: absolute;
+    margin-top: -24px;
+}
+
+main .quote .quote-content p {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
+}
+
+main .quote .quote-content h4 {
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: transparent;
+}
+
+main .quote .quote-content h6 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
 }
