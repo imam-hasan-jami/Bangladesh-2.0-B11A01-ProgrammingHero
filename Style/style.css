@@ -258,3 +258,57 @@ main .quote .quote-content h6 {
     line-height: 24px;
     background-color: transparent;
 }
+
+main .opinion h3 {
+    margin: 80px 0 24px 0;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+main .opinion .opinion-container {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+main .opinion .opinion-container table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border-spacing: 0px 45px; */
+}
+
+main .opinion .opinion-container table tr th {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+main .opinion .opinion-container table tr td {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+main .opinion .opinion-container table tr td select {
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
