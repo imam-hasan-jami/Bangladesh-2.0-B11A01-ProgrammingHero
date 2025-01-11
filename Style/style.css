@@ -11,12 +11,11 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 160px 24px 160px;
+    padding: 24px 150px 24px 150px;
 }
 
 header nav .nav-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -29,11 +28,9 @@ header nav .nav-btn {
     border-radius: 8px;
     padding: 15px 30px 15px 30px;
     color: rgb(0, 106, 80);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
 }
@@ -554,9 +551,16 @@ main .donate .donate-content .donate-cards .card {
     line-height: 48px;
 }
 
-main .donate .donate-content .donate-cards .card:hover {
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18); */
+main .donate .donate-content .donate-cards .card-200 {
     background: rgb(198, 228, 214);
+}
+
+main .donate .donate-content .donate-cards .card:hover {
+    background: rgb(198, 228, 214);
+}
+
+main .donate .donate-content .donate-cards .card-200:hover {
+    background: rgb(255, 255, 255);
 }
 
 main .donate .donate-content input {
