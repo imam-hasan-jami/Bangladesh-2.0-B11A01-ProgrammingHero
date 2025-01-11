@@ -7,11 +7,16 @@
     background: rgb(245, 245, 245);
 }
 
+header {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 150px 24px 150px;
+    padding: 24px 0 24px 0;
 }
 
 header nav .nav-title {
@@ -41,20 +46,20 @@ header nav .nav-btn:hover {
 }
 
 header .hero {
-    width: 1405px;
-    height: 560px;
+    /* width: 1280px; */
+    /* height: 560px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
-    padding: 80px 100px 80px 100px;
+    /* gap: 64px; */
+    padding: 80px 100px 80px 130px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     margin: 20px auto 0 auto;
 }
 
 header .hero .hero-content {
-    background: rgb(198, 228, 214);
+    background: transparent;
 }
 
 header .hero .hero-title {
@@ -63,7 +68,7 @@ header .hero .hero-title {
     font-weight: 500;
     line-height: 29px;
     text-align: left;
-    background-color: rgb(198, 228, 214);
+    background-color: transparent;
 }
 
 header .hero .hero-texts {
@@ -75,7 +80,7 @@ header .hero .hero-texts {
     line-height: 67px;
     text-align: left;
     margin-top: 16px;
-    background-color: rgb(198, 228, 214);
+    background-color: transparent;
 }
 
 header .hero .hero-btn {
@@ -98,7 +103,7 @@ header .hero .hero-btn:hover {
 }
 
 header .hero .hero-image {
-    background-color: rgb(198, 228, 214);
+    background-color: transparent;
 }
 
 header .hero .hero-image img {
@@ -109,8 +114,8 @@ header .hero .hero-image img {
 }
 
 main {
-    width: 1600px;
-    height: 4380px;
+    width: 1280px;
+    height: 4400px;
     margin: 0 auto;
 }
 
@@ -131,6 +136,8 @@ main .pillars .pillars-content .pillars-cards {
 }
 
 main .pillars .pillars-content .pillars-cards .pillars-card {
+    width: 302px;
+    height: 244px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -159,7 +166,6 @@ main .pillars .pillars-content .pillars-cards .pillars-card h3 {
 
 main .pillars .pillars-content .pillars-cards .pillars-card p {
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -236,6 +242,10 @@ main .vision .vision-content .vision-cards .vision-card button {
     cursor: pointer;
 }
 
+main .vision .vision-content .vision-cards .card1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
 main .vision .vision-content .vision-cards .card1 button {
     background: rgb(84, 144, 245);
 }
@@ -247,8 +257,12 @@ main .vision .vision-content .vision-cards .card1 button:hover {
     color: rgb(84, 144, 245);
 }
 
+main .vision .vision-content .vision-cards .card2 {
+    background: rgb(198, 228, 214);
+}
+
 main .vision .vision-content .vision-cards .card2 button {
-    margin-top: 24px;
+    margin-top: 22px;
     background: rgb(9, 161, 92);
 }
 
@@ -257,6 +271,10 @@ main .vision .vision-content .vision-cards .card2 button:hover {
     border: solid 1px rgb(9, 161, 92);
     background: rgb(255, 255, 255);
     color: rgb(9, 161, 92);
+}
+
+main .vision .vision-content .vision-cards .card3 {
+    background: rgb(247, 235, 207);
 }
 
 main .vision .vision-content .vision-cards .card3 button {
@@ -271,6 +289,8 @@ main .vision .vision-content .vision-cards .card3 button:hover {
 }
 
 main .quote .quote-content {
+    /* width: 1280px;
+    height: 256px; */
     margin-top: 32px;
     padding: 48px 24px 48px 24px;
     box-sizing: border-box;
