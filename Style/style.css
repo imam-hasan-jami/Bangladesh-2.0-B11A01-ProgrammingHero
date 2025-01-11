@@ -368,6 +368,11 @@ main .opinion .opinion-container table td {
     line-height: 19px;
 }
 
+main .opinion .opinion-container table td:last-child {
+    padding-left: 50px;
+    width: 150px;
+}
+
 main .opinion .opinion-container table tr td select {
     padding: 10px 14px 10px 14px;
     box-sizing: border-box;
@@ -378,6 +383,12 @@ main .opinion .opinion-container table tr td select {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
+    cursor: pointer;
+}
+
+main .opinion .opinion-container table tr td select:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
 }
 
 main .news .news-container>h3 {
