@@ -369,7 +369,7 @@ main .opinion .opinion-container table td {
 }
 
 main .opinion .opinion-container table td:last-child {
-    padding-left: 50px;
+    padding-left: 60px;
     width: 150px;
 }
 
@@ -384,11 +384,20 @@ main .opinion .opinion-container table tr td select {
     font-weight: 500;
     line-height: 19px;
     cursor: pointer;
+    appearance: none;
+    background-image: url('../assets/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 12px;
 }
 
 main .opinion .opinion-container table tr td select:hover {
     background: rgb(255, 255, 255);
     color: rgb(14, 14, 14);
+    background-image: url('../assets/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 12px;
 }
 
 main .news .news-container>h3 {
